@@ -1,0 +1,70 @@
+body{
+  background-color: #B8DFD8;
+}
+.container{
+  position: absolute;
+  width:500px;
+  heigth:250px;
+  background-color: #F3F1F5;
+  margin-top: 15px;
+  margin-left: 530px;
+}
+.container h3{
+  font-family: serif, "Times New Roman", Times;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #00366f;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+}
+.container input{
+  width:400px;
+
+  margin-left: 40px;
+  border: solid;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.container input:hover{
+  border-color: #035397;
+}
+.container input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.container input[type="password"] {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.container button{
+  margin-left: 40px;
+  margin-bottom: 70px;
+  width:400px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif, "Times New Roman", Times;
+  border: solid;
+}
+.logo img
+{
+  position:fixed;
+  top:7px;
+  left:45px;
+  width:150px;
+  padding-bottom: 10px;
+  max-height: 100px;
+  margin-left: 650px;
+  margin-top: 100px;
+}
+.logo h2{
+  margin-left:682px;
+  margin-top: 220px;
+  padding-left: 10px;
+  color: #00366f;
+  font-family: serif, "Times New Roman", Times;
+  font-weight: bold;
+}

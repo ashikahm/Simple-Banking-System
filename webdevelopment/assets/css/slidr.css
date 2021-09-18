@@ -1,0 +1,148 @@
+#bgslider {
+	overflow: hidden;
+  padding-bottom: 50px;
+}
+
+#bgslider figure {
+  position: relative;
+  width: 500%;
+  margin: 10px;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+#bgslider figure img {
+	width: 20%;
+	float: left;
+	height:80vh;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+#bgslider .center {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-0%, -90%);
+  //background-color:#F3F1F5;
+  //border-style: solid;
+  //border-width:thick;
+  //border-radius: 25px;
+}
+#bgslider .center h2{
+  font-family: serif, "Times New Roman", Times;
+  font-size: 70px;
+  font-weight: bolder;
+  color:#0F044C;//#233E8B;
+  text-decoration: none;
+  padding-left: 33px;
+  padding-bottom: 5px;
+}
+
+
+#bgslider .center h3{
+  padding-left: 220px;
+  padding-bottom: 10px;
+  color:#0F044C;//#233E8B;
+  font-family: serif, "Times New Roman", Times;
+  font-size: 30px;
+}
+
+
+.col1 {
+    color: #22577A;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 0 40px;
+    font-weight: bold;
+}
+
+
+.box-icon-product{
+	margin-left: 120px;
+}
+
+.row .product-list .item .name {
+    color: #693;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 0px 40px 0PX;
+    min-height: 70px;
+    margin-top: 20px;
+		width:150px;
+}
+.row .product-list .item .image img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height:100px;
+    vertical-align:middle;
+}
+.row .product-list .item{
+  float: left;
+  width: 320px;
+}
+.deals .heading{
+	margin-left: 120px;
+}
+.heading
+{
+	margin-left:120px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 990px)
+.deal-card {
+    margin: 0 12px;
+    padding: 30px 20px;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
